@@ -1,0 +1,1 @@
+PageModuleChannelInfo.prototype=new Module;PageModuleChannelInfo.prototype.constructor=PageModuleChannelInfo;function PageModuleChannelInfo(a){Module.call(this,a)}PageModuleChannelInfo.prototype.Refesh=function(){Module.prototype.Refesh.call(this);try{FB.XFBML.parse(this.form[0])}catch(a){console.debug(a)}};

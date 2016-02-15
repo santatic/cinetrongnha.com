@@ -1,0 +1,121 @@
+<ul class="nav nav-tabs" role="tablist">
+	<li class="active"><a href="#movie" role="tab" data-toggle="tab">Movie</a></li>
+	<li><a href="#info" role="tab" data-toggle="tab">Profile</a></li>
+</ul>
+<div class="tab-content edit-post">
+	<div class="tab-pane row active movie" id="movie">
+		<div class="col-sm-12">
+			<div class="row menu">
+				<div class="col-sm-6">
+					<label>Chap</label>
+					<div class="btn-toolbar" role="toolbar">
+						<div class="btn-group">
+							<button type="button" title="Edit Chap" class="btn btn-group-sm btn-primary btn-chap-edit">
+								<span class="glyphicon glyphicon-edit"></span>
+							</button>
+							<button type="button" title="Append Chap" class="btn btn-group-sm btn-success btn-chap-append">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" title="Move Chap Up" class="btn btn-group-sm btn-info btn-chap-up">
+								<span class="glyphicon glyphicon-circle-arrow-up"></span>
+							</button>
+							<button type="button" title="Move Chap Down" class="btn btn-group-sm btn-warning btn-chap-down">
+								<span class="glyphicon glyphicon-circle-arrow-down"></span>
+							</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" title="Remove Chap" class="btn btn-group-sm btn-danger btn-chap-remove">
+								<span class="glyphicon glyphicon-trash"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<label>Server</label>
+					<div class="btn-toolbar" role="toolbar">
+						<div class="btn-group">
+							<button type="button" class="btn btn-group-sm btn-primary btn-srv-edit">
+								<span class="glyphicon glyphicon-edit"></span>
+							</button>
+							<button type="button" class="btn btn-group-sm btn-success btn-srv-append">
+								<span class="glyphicon glyphicon-plus"></span>
+							</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-group-sm btn-info btn-srv-left">
+								<span class="glyphicon glyphicon-circle-arrow-left"></span>
+							</button>
+							<button type="button" class="btn btn-group-sm btn-warning btn-srv-right">
+								<span class="glyphicon glyphicon-circle-arrow-right"></span>
+							</button>
+						</div>
+						<div class="btn-group">
+							<button type="button" class="btn btn-group-sm btn-danger btn-srv-remove">
+								<span class="glyphicon glyphicon-trash"></span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row inset select chaps"></div>
+		</div>
+		<div class="col-sm-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">Editor</div>
+				<div class="panel-body chap-config"></div>
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane row info" id="info">
+		<div class="col-sm-6">
+			<label>Title</label>
+			<input type="text" name="title" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Sub Title</label>
+			<input type="text" name="subtitle" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Status</label>
+			<input type="text" name="status" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Thời lượng</label>
+			<input type="text" name="length" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Đạo diễn</label>
+			<input type="text" name="director" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Quốc gia</label>
+			<input type="text" name="country" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Năm phát hành</label>
+			<input type="text" name="year" class="form-control">
+		</div>
+		<div class="col-sm-6">
+			<label>Thể loại</label>
+			<textarea class="form-control" name="category" rows="3"></textarea>
+		</div>
+		<div class="col-sm-6">
+			<label>Diễn viên</label>
+			<textarea class="form-control" name="stars" rows="3"></textarea>
+		</div>
+		<div class="col-sm-6">
+			<label>Nguồn</label>
+			<textarea class="form-control" name="source" rows="3"></textarea>
+		</div>
+		<div class="col-sm-6">
+			<label>Giới thiệu</label>
+			<textarea class="form-control" name="descript_long" rows="10"></textarea>
+		</div>
+		<div class="col-sm-6">
+			<label>Giới thiệu Ngắn</label>
+			<textarea class="form-control" name="descript_short" rows="10"></textarea>
+		</div>
+	</div>
+</div>

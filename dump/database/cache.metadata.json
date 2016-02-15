@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"ns":"database.cache","name":"_id_"},{"v":1,"key":{"key":1},"ns":"database.cache","name":"key_1"},{"v":1,"key":{"expire":1},"ns":"database.cache","name":"expire_1"}]}

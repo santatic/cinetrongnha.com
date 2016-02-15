@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"ns":"database.post","name":"_id_"},{"v":1,"key":{"view.count":1},"ns":"database.post","name":"view.count_1"},{"v":1,"key":{"post.format":1},"ns":"database.post","name":"post.format_1"},{"v":1,"key":{"public.time":-1},"ns":"database.post","name":"public.time_-1"},{"v":1,"key":{"time":-1},"ns":"database.post","name":"time_-1"}]}

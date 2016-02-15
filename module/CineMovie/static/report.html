@@ -1,0 +1,43 @@
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+	<h4 class="modal-title">Yêu cầu & Báo sự cố</h4>
+</div>
+<div class="modal-body">
+	<div class="alert alert-info" role="alert">Chúng tôi biết ơn và trân trọng mọi góp ý của bạn, luôn có những phần quà cho những góp ý hay và thiệt thực. Chân thành cảm ơn bạn đã ủng hộ và góp phần xây dựng một cộng đồng tốt hơn !</div>
+	<form class="form-horizontal" role="form">
+		<div class="form-group">
+			<label class="col-sm-2 control-label">Report</label>
+			<div class="col-sm-10">
+				<select class="form-control report-select">
+					<option value="update_chap">Yêu cầu cập nhật tập mới</option>
+					<option value="film_die">Phim hỏng / die</option>
+					<option value="film_slow">Phim quá chậm</option>
+					<option value="others">Yêu cầu khác</option>
+				</select>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-2 control-label">Nội Dung</label>
+			<div class="col-sm-10 report-form" of="update_chap">
+				<p>+ tập phim bạn nghỉ đã có</p>
+				<p>+ Nguồn bạn đã thấy có tập mới (nếu có)</p>
+				<textarea class="form-control" rows="5"></textarea>
+			</div>
+			<div class="col-sm-10 report-form" of="film_die">
+				<div class="alert alert-info" role="alert">Khi có tập phim hỏng, hệ thống sẻ tự động cập nhật và báo cáo cho chúng tôi, ý kiến đóng góp của bạn đã được ghi nhận và hậu tạ cảm ơn bạn nhiều nhiều :3</div>
+			</div>
+			<div class="col-sm-10 report-form" of="film_slow">
+				<div class="alert alert-info" role="alert">Bạn hãy thử đổi server để tìm ra server có tốc độ tốt hơn, chúng tôi đang phát triển hệ thống giúp người dùng xem phim nhanh hơn và sẻ sớm ra mắt trong thời gian tới, xin chân thành cảm ơn đóng góp của bạn :)</div>
+			</div>
+			<div class="col-sm-10 report-form" of="others">
+				<p>+ chúng tôi luôn tiếp nhận ý kiến đóng góp của bạn và có những phần quà cho những ý kiến, yêu cầu hay và thiết thực</p>
+				<p>+ Yêu cầu của bạn không nên quá ngắn (dưới 50 ký tự ) hoặc quá dài (trên 1000 ký tự)</p>
+				<textarea class="form-control" rows="5"></textarea>
+			</div>
+		</div>
+	</form>
+</div>
+<div class="modal-footer">
+	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	<button type="button" class="btn btn-primary report-send">Send</button>
+</div>

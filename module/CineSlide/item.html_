@@ -1,0 +1,3 @@
+<div class="item">
+	<img src="{{ argv['background'] }}">
+</div>

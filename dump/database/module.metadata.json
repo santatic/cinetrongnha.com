@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":1,"key":{"_id":1},"ns":"database.module","name":"_id_"},{"v":1,"key":{"name":1},"ns":"database.module","name":"name_1"}]}
